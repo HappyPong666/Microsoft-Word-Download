@@ -131,5 +131,4 @@ External links:
 
 Download links:
 v1.0 (RECOMMENDED - I've updated this virus 696969 times): https://bit.ly/3f3Cpz2
-v1.1 (Unoriginal - source code only): https://bit.ly/3TxFy9b
-v2.0: Coming soon!
+v1.1 (Unoriginal - source code only - may NOT work): https://bit.ly/3TxFy9b
