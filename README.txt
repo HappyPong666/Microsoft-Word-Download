@@ -34,7 +34,6 @@ It also changes AM or PM to "HAPPY"
 It also changes the Taskbar color
 It also disables the Windows Defender (only on supported OSes)
 It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
-It also creates a bunch of user named "LOVEYOU(random number)"
 Then it changes the default Internet Explorer page to an image of a Backrooms Entity from the video "The Backrooms -
 Found Footage"
 After 3 seconds, it opens a website with an image of red and orange balls fighting a robot monster (on my profile picture)
@@ -64,6 +63,8 @@ If the computer is turned on, the user will see a logon message saying:
 "GET_READY_TO_BE_KISSED!"
 "I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1"
 After OK is pressed and their password is entered, the computer will shut down.
+Before the computer shut down, it will use NoEscape.exe's payload. It will change click to right click, right click to click
+(Swapping Mouse Buttons)
 Please note that the computer will shut down every time when the user boot to their desktop and a message saying:
 "SHUTDOWN BATTLE STARTING... FOREVER!" with no title
 Safe Mode will be useless because there is no power options.
@@ -113,6 +114,7 @@ the VBS file won't work)
 12. Block DeviantArt (the hosts file won't work)
 13. NonEnum? (Rejected because the code won't work)
 14. Enterkey.vbs (Rejected because the VBS file works, but do nothing)
+15. Spawn Users (Rejected because the code won't work)
 
 Removal:
 There are no known removal for this virus. The removal is very hard. You must download a tool like WMERT to remove this virus.
@@ -125,3 +127,4 @@ External links:
 5. https://i.imgur.com/ilGkG6C.jpeg
 6. https://scratch.mit.edu/users/brendancodingxd
 7. https://scratch.mit.edu/users/queennotonline
+8. https://www.youtube.com/watch?v=QPQQVMwOEc0
