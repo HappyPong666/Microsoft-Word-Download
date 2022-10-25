@@ -130,6 +130,6 @@ External links:
 8. https://www.youtube.com/watch?v=QPQQVMwOEc0
 
 Download links:
-v1.0: https://bit.ly/3f3Cpz2
+v1.0 (I've updated this virus 696969 times): https://bit.ly/3f3Cpz2
 v1.1 (source code only): https://bit.ly/3TxFy9b
 v2.0: Coming soon!
