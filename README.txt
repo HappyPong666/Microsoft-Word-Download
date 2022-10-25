@@ -128,3 +128,8 @@ External links:
 6. https://scratch.mit.edu/users/brendancodingxd
 7. https://scratch.mit.edu/users/queennotonline
 8. https://www.youtube.com/watch?v=QPQQVMwOEc0
+
+Download links:
+v1.0: https://bit.ly/3f3Cpz2
+v1.1 (source code only): https://bit.ly/3TxFy9b
+v2.0: Coming soon!
