@@ -21,14 +21,14 @@ When the virus is executed, it will hide itself, and show a message saying:
 If OK is pressed or the message is closed, it will wait 30 seconds then it will show its payloads. If the user end the
 process (mshta.exe, HappyPong.exe, PING.exe) in the Task Manager before running, the virus will not show its payloads after 30
 seconds.
-But if the HappyPong folder in WINDOWS directory is exist. The virus will not start, instead, it will show a message from Windows XP saying that
-the application failed to "smile" properly. Clicking OK will reshow itself and will not start itself until when the user
+But if the HappyPong folder in WINDOWS directory is exist. The virus will not start, instead, it will show a message from Windows XP saying thatthe application failed to "smile" properly. Clicking OK will reshow itself and will not start itself until when the user
 start the virus, the HappyPong folder in C:\WINDOWS is deleted
 After 30 seconds, it will restart File Explorer, then terminate mutiple programs like Task Manager. Then it will:
+Stop MEMZ Destructive and MEMZ Clean from running.
 Create a .txt file in its location named "note.txt". The TXT file looks like an email. But it's not.
 Create a hidden folder named "HappyPong" in C:\WINDOWS. The folder cannot be shown by Folder Options because it is hidden
 by the Command Prompt (attrib command)
-Create VBS, BAT, MP3 and HTA files in the HappyPong folder
+Create VBS, BAT, MP3, JPG, and HTA files in the HappyPong folder
 Execute some files in the HappyPong folder
 Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run,...)
 It also disables features like Aero Peek and most used apps in the Start Menu.
