@@ -7,8 +7,9 @@ This virus cannot be run on Windows XP because it might have errors.
 Name:HappyPong, HappyPong.exe, fukpong, fukpong.exe
 Type: Trojan
 Operating systems: Microsoft Windows
+Tested operating systems: Windows XP (VMware), Windows 7 (CollabVM), Windows 8.1 (VMware, CollabVM), Windows 10 (VMware), Windows 11 (main PC, tested some harmless payloads - not all payloads including harmfuls)
 Creator: Kevin Reagan
-Date: October 27th, 2022
+Date: October 28th, 2022
 Origin: Vietnam
 Programming Language: Batch, VBScript, JavaScript
 File type: .exe, .bat
