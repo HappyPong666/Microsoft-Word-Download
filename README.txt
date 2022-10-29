@@ -1,7 +1,7 @@
 THIS IS A VIRUS MADE BY ME!
 IM NOT RESPONSIBLE FOR ANY DAMAGES!
 
-Trojan.BAT.HappyPong is a dangerous virus that edit the registry. It can be ran on Windows Vista and up.
+Trojan.BAT.HappyPong is a halloween dangerous virus that edit the registry. It can be ran on Windows Vista and up.
 This virus cannot be run on Windows XP because it might have errors.
 
 Name:HappyPong, HappyPong.exe, fukpong, fukpong.exe
@@ -9,7 +9,7 @@ Type: Trojan
 Operating systems: Microsoft Windows
 Tested operating systems: Windows XP (VMware), Windows 7 (CollabVM), Windows 8.1 (VMware, CollabVM), Windows 10 (VMware), Windows 11 (main PC, tested some harmless payloads - not all payloads including harmfuls)
 Creator: Kevin Reagan
-Date: October 28th, 2022
+Date: October 29th, 2022
 Origin: Vietnam
 Programming Language: Batch, VBScript, JavaScript
 File type: .exe, .bat
@@ -33,11 +33,12 @@ Create VBS, BAT, MP3, JPG, and HTA files in the HappyPong folder
 Execute some files in the HappyPong folder
 Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run,...)
 It also disables features like Aero Peek and most used apps in the Start Menu.
-It also changes all files in the .exe file's location to .vbs (VMware files, VirtualBox files, Scratch files, bat and cmd files, HTML files, image files, system files and more)
+It also changes all files in the .exe file's location to .vbs (Annabelle Ransomware Infected Files(oh sh1t), VMware files, VirtualBox files, Scratch files, bat and cmd files, HTML files, image files, system files and more)
 It also disables accessing to drives (including hide drives)
 It also changes AM or PM to "HAPPY"
 It also changes the Taskbar color
 It also disables the Windows Defender (only on supported OSes)
+It also disables Lock Screen image (only color in logon image :( )
 It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
 Then it changes the default Internet Explorer page to an image of a Backrooms Entity from the video "The Backrooms -
 Found Footage"
@@ -52,14 +53,14 @@ After 5 seconds, it speask:
 "Hey, why are not you answering?"
 After another 5 seconds, it speaks:
 "OK. I know you cannot speak to me. But now I will play some good music. Sound amazing?"
-After a few seconds, it disables Desktop icons, network connections and Registry Editor and it change the lock screen background to an SCP-173 image (this payload may not work). It plays a Windows 7 Error Remix music on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly, right?)
+After a few seconds, it disables Desktop icons, network connections and Registry Editor and it change the lock screen background to an SCP-173 image (this payload may not work, if it works, you must enable lock screen image in regedit). It plays a Windows 7 Error Remix music on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly, right?)
 After 60 seconds, it shows a red screen. Then it speaks:
 "A problem has been detected and windows has been suspended for the rest of your life!"
 And a funny thing is... Every 60 seconds, it shows a red screen then it speaks. It does this eight times (for 8
 minutes)
 After 9 or 10 minutes, it terminates File Explorer, then it shows a message saying:
 "Thank you for playing my game! But you are tricked! You cannot get your computer back! HAHAHAHAHAHAHAHAHA!!!!!
-PREPARE FOR A SHUTDOWN BATTLE!!!!!"
+PREPARE FOR A SHUTDOWN BATTLE!!!!!" (works on 32 bit only - may not work because shutdown screen covered the message)
 Then it speaks:
 "Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you!
 You just recieved a fake email from Daniel! Hehe get scammed noob!"
@@ -136,7 +137,8 @@ External links:
 7. https://scratch.mit.edu/users/queennotonline
 8. https://scratch.mit.edu/users/dixiklo
 9. https://www.youtube.com/watch?v=QPQQVMwOEc0
+10. https://www.youtube.com/watch?v=qj8e8YN1DOE&list=PLs5QiqL-0A275Lc7vnt_gERUhmmEVDGEi&index=29
 
 Download links:
-v1.0 (RECOMMENDED - I've updated this virus 696969 times): https://bit.ly/3f3Cpz2
-v1.1 (Unoriginal - source code only - may NOT work): https://bit.ly/3TxFy9b
+v1.0 (RECOMMENDED - I've updated this virus 696969 times - i promise i will never update it again because it is 666 lines of code): https://bit.ly/3f3Cpz2
+v1.1 (Unoriginal - source code only - not updated - may NOT work): https://bit.ly/3TxFy9b
