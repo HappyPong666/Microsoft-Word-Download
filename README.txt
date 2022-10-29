@@ -120,6 +120,8 @@ the VBS file won't work)
 13. NonEnum? (Rejected because the code won't work)
 14. Enterkey.vbs (Rejected because the VBS file works, but do nothing)
 15. Spawn Users (Rejected because the code won't work)
+16. Delete System32
+17. Game on startup (Rejected because shutdown is already on startup)
 
 Removal:
 There are no known removal for this virus. The removal is very hard. You must download a tool like WMERT to remove this virus.
